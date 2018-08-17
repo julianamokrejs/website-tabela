@@ -1,11 +1,15 @@
 body {
     font-family: 'Lato', Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    margin: 0 auto;
+    text-align: center;
 }
 
 table {
     border-collapse: collapse;
-    width: 70%;
+    width: 75%;
     margin: 0 auto;
+    text-align: center;
 }
 
 table, tr, td, th, thead {
@@ -26,7 +30,11 @@ h5 {
 
 h4 {
     color: blue;
-    margin: 7px;
+    margin: 9px;
+}
+
+.verde {
+    color:green;
 }
 
 h3 {
@@ -34,17 +42,16 @@ h3 {
     margin: 10px auto;
     color: #4A4A4A;
     font-weight: 300;
-    font-size: 18px;
 }
 
 .botao {
-    margin: 10px 30px;
+    margin: 20px auto;
     padding: 10px;
     text-align: center;
     display: block;
     text-decoration: none;
     text-transform: uppercase;
-    background: red;
+    background:#ff5406;
     border-radius: 2px;
     width: 100px;
     color: white;
@@ -63,7 +70,7 @@ p {
     font-size: 13px;
     font-weight: lighter;
     color: white;
-    margin: 10px;
+    margin: 10px auto;
 }
 
 .tr1 {
@@ -72,9 +79,18 @@ p {
 
 tbody {
     border-right: 1px solid #D8D8D8;
+    margin: 10 auto;
+    border-top: 1px solid #d8d8d8;
 }
 
 td {
     font-size: 14px;
     color: #4A4A4A;
+    padding: 10px auto;
+    margin: 10px auto;
+    height: 40px;
+}
+
+th {
+    width: 100px;
 }
